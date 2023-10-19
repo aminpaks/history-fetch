@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "moduleResolution": "bundler",
+
+        "rootDir": ".",
+        "baseUrl": ".",
+        "outDir": "./dist",
+
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+
+        "composite": true,
+
+        "paths": {
+            "~/*": ["./src/*"],
+        },
+    },
+    "include": [],
+    "exclude": ["node_modules", "dist"],
+}
